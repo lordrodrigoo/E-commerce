@@ -1,0 +1,48 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ambiente virtual (geralmente você tem uma pasta 'venv' ou 'env' para o ambiente virtual)
+venv/
+env/
+.venv/
+
+# Arquivos de configuração do Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+media/
+
+# Arquivos de banco de dados locais (ajuste se usar outro tipo de banco de dados)
+*.sqlite3
+*.db
+
+# Diretórios de build do Django
+staticfiles/
+
+# Arquivos de configuração do IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos do pip
+Pipfile.lock
+pip-log.txt
+
+# Arquivos de cache do Django
+*.py[cod]
+__pycache__/
+
+# Arquivos de configuração do Docker (se usar Docker)
+docker-compose.override.yml
+Dockerfile.local
+
+# Arquivos de teste
+test_*.py

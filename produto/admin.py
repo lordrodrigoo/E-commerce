@@ -13,7 +13,6 @@ class ProdutoAdmin(admin.ModelAdmin):
     ]
 
 
-
 # Register your models here.
 
 admin.site.register(models.Produto, ProdutoAdmin)

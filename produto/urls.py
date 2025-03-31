@@ -12,7 +12,4 @@ urlpatterns = [
     path('finalizar/', views.Finalizar.as_view(), name='finalizar' ),
 
 
-
-
-
 ]

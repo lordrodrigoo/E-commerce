@@ -58,7 +58,7 @@ class Perfil(models.Model):
     def clean(self):
         error_messages = {}
 
-        if not validacpf(self.cpf):
+        if not valida_cpf(self.cpf):
             error_messages['cpf'] = 'Digite um CPF válido'
 
         if re.search(r'[^0-9]', self.cep) or len(self.cep) < 8:
